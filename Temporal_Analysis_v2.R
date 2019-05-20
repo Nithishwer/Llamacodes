@@ -1,5 +1,5 @@
 library(readxl)
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("somefile.xlsx")
 View(Data_1Y)
 Data_1Y$td=(Data_1Y$...3)/3600
 M24=matrix(NA, nrow = 24, ncol = 148)
