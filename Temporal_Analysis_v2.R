@@ -1,5 +1,5 @@
 library(readxl)
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("somefile.xlsx")
 View(Data_1Y)
 Data_1Y$td=(Data_1Y$...3)/3600
 #Data_1Y$tdr=as.integer(Data_1Y$td)
@@ -82,7 +82,7 @@ heatmap(m96, Colv = NA, Rowv = NA, scale="column")
 #  12months Heatmap
 # #################
 
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("somefile.xlsx")
 #View(Data_1Y)
 Data_1Y$m<- as.numeric(substring(Data_1Y$...1,6,7))
 #Data_1Y$tdr=as.integer(Data_1Y$td)
@@ -112,7 +112,7 @@ heatmap(m12, Colv = NA, Rowv = NA, scale="column")
 #  Weekday Heatmap
 # #################
 
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("somefile.xlsx")
 #View(Data_1Y)
 Data_1Y$day<- as.POSIXlt(Data_1Y$...1)$wday
 M7=matrix(NA, nrow = 7, ncol = 148)
