@@ -1,5 +1,5 @@
 library(readxl)
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("some_file.xlsx")
 #View(Data_1Y)
 Data_1Y$td=(Data_1Y$...3)/3600
 #Data_1Y$tdr=as.integer(Data_1Y$td)
@@ -82,7 +82,7 @@ heatmap(m96, Colv = NA, Rowv = NA, scale="column")
 #  12months Heatmap
 # ################
 
-Data_1Y <- read_excel("/home/pennyworth/Documents/Bus/Data_One Year_200 m.xlsx")
+Data_1Y <- read_excel("some_file.xlsx")
 #View(Data_1Y)
 Data_1Y$td=(Data_1Y$...3)/3600
 #Data_1Y$tdr=as.integer(Data_1Y$td)
