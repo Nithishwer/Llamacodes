@@ -1,2 +1,2 @@
 # Llamacodes
-Code for some pretty lame things
+Code for some basic data-vis.
