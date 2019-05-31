@@ -58,7 +58,7 @@ interp.most_confused(min_val=2)
 learn.unfreeze()
 learn.fit_one_cycle(1)
 
-#Load previously trained model
+# Load previously trained model
 
 learn.load('stage-1');
 learn.lr_find()
