@@ -146,3 +146,9 @@ for (i in 1:7){
 
 #Change in Weekdays %
 rmeans=rowMeans(df7)
+
+#References
+
+#https://ggplot2.tidyverse.org/reference/scale_brewer.html#palettes
+#http://www.roymfrancis.com/a-guide-to-elegant-tiled-heatmaps-in-r-2019/
+#http://www.roymfrancis.com/a-guide-to-elegant-tiled-heatmaps-in-r/
