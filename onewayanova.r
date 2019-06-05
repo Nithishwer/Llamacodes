@@ -61,7 +61,7 @@ TukeyHSD(aov(model1))
 library("ggplot2")
 
 ggplot(df, aes(x = m, y = tt)) +
-  geom_boxplot(fill = "grey80", colour = "black") +
+  geom_boxplot(fill = "steelblue1", colour = "black") +
   scale_x_discrete() + xlab("Month") +
   ylab("travel time (s)")
 
